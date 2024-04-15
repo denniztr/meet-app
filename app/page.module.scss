@@ -1,0 +1,12 @@
+@import '../styles/mixins';
+
+.title {
+  color: chocolate;
+}
+
+@include desktop() {
+  .title {
+    color: cornflowerblue;
+  }
+}
+
